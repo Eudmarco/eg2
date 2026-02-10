@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eudmarco.github.io/eg2/sitemap.xml
+Sitemap: https://egeletrica.com.br/sitemap.xml
