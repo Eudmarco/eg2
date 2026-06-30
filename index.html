@@ -14,6 +14,68 @@
     <meta property="og:title" content="EG Elétrica | Soluções em Energia e Automação" />
     <meta property="og:description" content="Eletricista em Jaguariúna, Energia Solar Off-Grid e Automação Residencial." />
     <meta property="og:image" content="https://kjunynajewbtxqojxbok.supabase.co/storage/v1/object/public/EG%20Eletrica/Logo%20Eg%20Eletrica.avif" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EG Elétrica | Eletricista em Jaguariúna, Energia Solar e Automação" />
+    <meta name="twitter:description" content="Serviços elétricos 24h, instalação de energia solar, automação residencial e projetos elétricos em Jaguariúna, Campinas e região." />
+    <meta name="twitter:image" content="https://kjunynajewbtxqojxbok.supabase.co/storage/v1/object/public/EG%20Eletrica/Logo%20Eg%20Eletrica.avif" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ElectricalContractor",
+      "name": "EG Elétrica",
+      "url": "https://egeletrica.com.br",
+      "logo": "https://kjunynajewbtxqojxbok.supabase.co/storage/v1/object/public/EG%20Eletrica/Logo%20Eg%20Eletrica.avif",
+      "telephone": "+55-19-99773-7657",
+      "email": "eg.eletrica10@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Travessa Padre Anchieta, 39",
+        "addressLocality": "Jaguariúna",
+        "addressRegion": "SP",
+        "postalCode": "13916-000",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-22.8579402",
+        "longitude": "-47.0478858"
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }],
+      "sameAs": [
+        "https://instagram.com/eg.eletrica10",
+        "https://www.google.com/maps/place/EG+EL%C3%89TRICA/@-22.8579402,-47.0478858"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "4",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços Elétricos",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Instalações Elétricas Residenciais e Comerciais"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Energia Solar Off-Grid"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Montagem de Painéis Elétricos"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Especialista em Aterramento e Equipotencialização"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cabeamento de Rede Estruturada"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Manutenção e Reparos Elétricos 24h"}}
+        ]
+      }
+    }
+    </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,36 +85,6 @@
     <!-- Favicon -->
     <link rel="icon" type="image/avif" href="https://kjunynajewbtxqojxbok.supabase.co/storage/v1/object/public/EG%20Eletrica/Logo%20Eg%20Eletrica.avif?v=2" />
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              eg: {
-                dark: '#0f172a',
-                gold: '#fbbf24',
-                goldhover: '#d97706',
-                gray: '#f3f4f6',
-                blue: '#1e40af',
-                red: '#ef4444',
-              }
-            },
-            fontFamily: {
-              sans: ['Roboto', 'sans-serif'],
-              display: ['Montserrat', 'sans-serif'],
-            },
-            boxShadow: {
-              'glow': '0 0 15px rgba(251, 191, 36, 0.5)',
-            },
-            animation: {
-              'bounce-slow': 'bounce 3s infinite',
-            }
-          },
-        },
-      }
-    </script>
 <script type="importmap">
 {
   "imports": {

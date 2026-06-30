@@ -76,10 +76,13 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="block w-full h-full relative"
             >
-                <img 
-                    src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80" 
+                <img
+                    src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80"
                     alt="Mapa de Localização Jaguariúna"
                     className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity"
+                    width={800}
+                    height={533}
+                    loading="lazy"
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
                     <span className="bg-white text-eg-dark px-4 py-2 rounded-full font-bold shadow-lg">Ver no Google Maps</span>

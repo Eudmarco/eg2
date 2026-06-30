@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   const navLinks = [
     { label: 'Início', href: '#hero' },
     { label: 'Serviços', href: '#servicos' },
-    { label: 'Solar & Automação', href: '#especializados' },
+    { label: 'Solar & Painéis', href: '#especializados' },
     { label: 'Contato', href: '#contato' },
   ];
 
@@ -30,10 +30,13 @@ const Header: React.FC = () => {
           onClick={(e) => handleScroll(e, '#hero')}
           className="flex items-center gap-3 group z-50"
         >
-           <img 
-             src={LOGO_URL} 
-             alt="EG Elétrica Logo" 
+           <img
+             src={LOGO_URL}
+             alt="EG Elétrica Logo"
              className="h-16 w-auto md:h-24 object-contain transition-transform duration-300 transform group-hover:scale-105"
+             width={200}
+             height={96}
+             fetchPriority="high"
            />
            <div className="flex flex-col">
              <span className="font-display font-bold text-lg md:text-xl tracking-wide leading-none text-white">EG ELÉTRICA</span>

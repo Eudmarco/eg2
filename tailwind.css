@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-eg-dark: #0f172a;
+  --color-eg-gold: #fbbf24;
+  --color-eg-goldhover: #d97706;
+  --color-eg-gray: #f3f4f6;
+  --color-eg-blue: #1e40af;
+  --color-eg-red: #ef4444;
+
+  --font-family-sans: 'Roboto', sans-serif;
+  --font-family-display: 'Montserrat', sans-serif;
+
+  --shadow-glow: 0 0 15px rgba(251, 191, 36, 0.5);
+
+  --animate-bounce-slow: bounce 3s infinite;
+}

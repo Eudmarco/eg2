@@ -15,14 +15,14 @@ const Services: React.FC = () => {
       icon: <Icons.Bolt />
     },
     {
-      title: "Redes e CFTV",
-      description: "Cabeamento estruturado, instalação de câmeras de segurança e configuração de redes Wi-Fi de alta performance.",
+      title: "Cabeamento de Rede Estruturada",
+      description: "Infraestrutura de rede cabeada cat5e, cat6 e cat6a para residências, escritórios e condomínios. Certificação e organização de pontos de rede.",
       icon: <Icons.Wifi />
     },
     {
-      title: "Padrão de Entrada",
-      description: "Instalação e manutenção de padrão de entrada de energia (poste), seguindo todas as normas da concessionária local.",
-      icon: <Icons.CheckBadge />
+      title: "Especialista em Aterramento",
+      description: "Aterramento estrutural, equipotencialização e medição/aferição de resistência conforme normas ABNT. Segurança elétrica para sua instalação.",
+      icon: <Icons.Bolt />
     }
   ];
 

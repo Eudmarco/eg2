@@ -87,7 +87,8 @@ const ContactForm: React.FC = () => {
                   <option value="Residencial">Elétrica Residencial</option>
                   <option value="Comercial">Elétrica Comercial</option>
                   <option value="Solar">Energia Solar Off-Grid</option>
-                  <option value="Automacao">Automação Residencial</option>
+                  <option value="Paineis">Montagem de Painéis</option>
+                  <option value="Aterramento">Aterramento e Equipotencialização</option>
                   <option value="Emergencia">Emergência 24h</option>
                 </select>
               </div>

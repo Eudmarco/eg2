@@ -121,7 +121,7 @@ const Testimonials: React.FC = () => {
                             {review.name.charAt(0)}
                         </div>
                         <p className="font-bold text-eg-dark text-base">{review.name}</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" className="w-5 h-5 ml-1" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" className="w-5 h-5 ml-1" width={20} height={20} loading="lazy" />
                     </div>
                   </div>
                 </div>
