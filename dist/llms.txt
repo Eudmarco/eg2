@@ -1,25 +1,33 @@
 # EG Elétrica
 
-> Empresa especializada em serviços elétricos residenciais e comerciais, energia solar off-grid e automação residencial em Jaguariúna, SP, Brasil. Atendimento 24 horas, incluindo emergências elétricas.
+> Empresa especializada em serviços elétricos residenciais e comerciais, energia solar off-grid e montagem de painéis elétricos em Jaguariúna, SP, Brasil. Atendimento 24 horas, incluindo emergências elétricas.
+
+## Site
+
+- [Página Inicial](https://egeletrica.com.br/): Apresentação da empresa, serviços e contato
+- [Serviços Elétricos](https://egeletrica.com.br/#servicos): Instalações residenciais, comerciais e industriais
+- [Solar & Painéis](https://egeletrica.com.br/#especializados): Energia solar off-grid e montagem de painéis elétricos
+- [Solicitar Orçamento](https://egeletrica.com.br/#contato): Formulário de contato e atendimento via WhatsApp
 
 ## Sobre a empresa
 
-EG Elétrica é uma empresa de serviços elétricos fundada e operada por Eduardo, eletricista certificado NR10 e NR35. Atende Jaguariúna, Campinas e toda a região metropolitana.
+EG Elétrica é uma empresa de serviços elétricos operada por Eduardo, eletricista certificado NR10 e NR35. Atende Jaguariúna, Campinas e toda a região metropolitana de Campinas, SP.
 
 ## Serviços oferecidos
 
 - Instalações elétricas residenciais e comerciais
 - Energia solar off-grid (projeto e instalação)
-- Automação residencial (iluminação, segurança, climatização)
-- Projetos elétricos conforme normas NR10 e NR35
-- Manutenção corretiva e preventiva
-- Atendimento de emergências elétricas 24h
+- Montagem de painéis elétricos (quadros residenciais, comerciais, industriais e QGBT)
+- Especialista em aterramento e equipotencialização
+- Cabeamento de rede estruturada
+- Manutenção corretiva e preventiva 24h
 
-## Contato
+## Contato e localização
 
-- Telefone / WhatsApp: +55 (19) 99773-7657
-- E-mail: eg.eletrica10@gmail.com
-- Endereço: Travessa Padre Anchieta, 39 - Centro - Jaguariúna, SP
+- WhatsApp: [+55 (19) 99773-7657](https://wa.me/5519997737657)
+- E-mail: [eg.eletrica10@gmail.com](mailto:eg.eletrica10@gmail.com)
+- Endereço: [Travessa Padre Anchieta, 39 - Centro - Jaguariúna, SP](https://www.google.com/maps/place/EG+EL%C3%89TRICA/@-22.8579402,-47.0478858)
+- Instagram: [https://instagram.com/eg.eletrica10](https://instagram.com/eg.eletrica10)
 - Horário: Segunda a Domingo, 24 horas (plantão de emergência)
 
 ## Avaliação
@@ -28,4 +36,4 @@ Classificação média: 5.0 estrelas no Google (4 avaliações)
 
 ## Área de atendimento
 
-Jaguariúna, Campinas, Holambra, Pedreira, Santo Antônio de Posse e região.
+Jaguariúna, Campinas, Holambra, Pedreira, Santo Antônio de Posse e região metropolitana de Campinas.

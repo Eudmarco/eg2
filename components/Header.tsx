@@ -7,9 +7,13 @@ const Header: React.FC = () => {
   const navLinks = [
     { label: 'Início', href: '#hero' },
     { label: 'Serviços', href: '#servicos' },
-    { label: 'Solar & Painéis', href: '#especializados' },
+    { label: 'Painéis Elétricos', href: '#especializados' },
     { label: 'Contato', href: '#contato' },
   ];
+  // TODO [E-COMMERCE]: Inserir aqui o link/botão da loja virtual quando disponível.
+  // Sugestão: { label: 'Loja', href: 'https://loja.egeletrica.com.br' }
+  // No desktop nav, adicionar o link antes do botão de telefone.
+  // No mobile menu, adicionar após os links existentes.
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();

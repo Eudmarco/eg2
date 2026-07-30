@@ -21,7 +21,7 @@ const Services: React.FC = () => {
     },
     {
       title: "Especialista em Aterramento",
-      description: "Aterramento estrutural, equipotencialização e medição/aferição de resistência conforme normas ABNT. Segurança elétrica para sua instalação.",
+      description: "Aterramento estrutural, Equipotencialização, Mediação e Aferição. De acordo com as normas ABNT NBR 5410 e NBR 5419. Segurança elétrica para sua instalação.",
       icon: <Icons.Bolt />
     }
   ];
