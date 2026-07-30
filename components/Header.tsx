@@ -10,10 +10,7 @@ const Header: React.FC = () => {
     { label: 'Painéis Elétricos', href: '#especializados' },
     { label: 'Contato', href: '#contato' },
   ];
-  // TODO [E-COMMERCE]: Inserir aqui o link/botão da loja virtual quando disponível.
-  // Sugestão: { label: 'Loja', href: 'https://loja.egeletrica.com.br' }
-  // No desktop nav, adicionar o link antes do botão de telefone.
-  // No mobile menu, adicionar após os links existentes.
+  const lojaHref = 'https://loja.egeletrica.com.br';
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -60,7 +57,15 @@ const Header: React.FC = () => {
               {link.label}
             </a>
           ))}
-          <a 
+          <a
+            href={lojaHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-eg-gold text-eg-gold px-4 py-2 rounded-full font-bold hover:bg-eg-gold hover:text-eg-dark transition-all text-sm uppercase tracking-wide"
+          >
+            🛒 Loja
+          </a>
+          <a
             href={`https://wa.me/${PHONE_NUMBER}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -102,11 +107,19 @@ const Header: React.FC = () => {
                 {link.label}
               </a>
             ))}
-             <a 
+             <a
+                href={lojaHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center border-2 border-eg-gold text-eg-gold py-4 rounded-xl font-bold text-xl mt-4 hover:bg-eg-gold hover:text-eg-dark transition-all"
+              >
+                🛒 Acessar Loja Virtual
+              </a>
+             <a
                 href={`https://wa.me/${PHONE_NUMBER}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-center bg-eg-gold text-eg-dark py-4 rounded-xl font-bold text-xl mt-4 shadow-glow"
+                className="text-center bg-eg-gold text-eg-dark py-4 rounded-xl font-bold text-xl shadow-glow"
               >
                 Ligar Agora
               </a>
