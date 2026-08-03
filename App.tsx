@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -8,11 +8,19 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Popup from './components/Popup';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+import { useStoreSettings } from './hooks/useStoreSettings';
+import { updateMetaTags } from './lib/updateMetaTags';
 
 const App: React.FC = () => {
+  const settings = useStoreSettings();
+
+  useEffect(() => {
+    updateMetaTags(settings);
+  }, [settings]);
+
   return (
     <div className="antialiased text-gray-800">
-      <Header />
+      <Header logoUrl={settings.logo_url} />
       <main>
         <Hero />
         <Services />

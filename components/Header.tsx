@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { PHONE_DISPLAY, PHONE_NUMBER, LOGO_URL } from '../constants';
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  logoUrl?: string;
+}
+
+const Header: React.FC<HeaderProps> = ({ logoUrl }) => {
+  const resolvedLogoUrl = logoUrl || LOGO_URL;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
@@ -32,7 +37,7 @@ const Header: React.FC = () => {
           className="flex items-center gap-3 group z-50"
         >
            <img
-             src={LOGO_URL}
+             src={resolvedLogoUrl}
              alt="EG Elétrica Logo"
              className="h-16 w-auto md:h-24 object-contain transition-transform duration-300 transform group-hover:scale-105"
              width={200}
